@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased bg-gray-50;
+}
+
+label {
+  @apply block mb-1 text-sm text-gray-600;
+}
+
+input {
+  @apply border-2 rounded border-gray-200 px-2 py-1 w-full hover:border-pink-300;
+  @apply focus:outline-none focus:border-pink-600
+}
+
+button {
+  @apply rounded bg-blue-600 text-white hover:bg-indigo-600 shadow px-4 py-1 w-full;
+  @apply focus:outline-none focus:bg-indigo-600
+}
