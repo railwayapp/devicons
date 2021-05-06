@@ -27,9 +27,9 @@ export const icons: Icon[] = [
   i("Flask", { tags: ["python"] }),
   i("Laravel", { tags: ["php"] }),
   i("NextJS", { tags: ["js", "javascript"] }),
-  i("Prisma", { tags: ["js", "javascript"] }),
+  i("Prisma"),
   i("Rails", { tags: ["ruby"] }),
-  i("Svelte", { tags: ["js"] }),
+  i("Svelte"),
   i("Telegram"),
   i("Rocket", { file: "rocket.png" }),
 ];

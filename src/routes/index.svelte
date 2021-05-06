@@ -1,18 +1,7 @@
-<script lang="ts" context="module">
-  import type { Load } from "@sveltejs/kit";
-
-  export const load: Load = async ({ page }) => {
-    console.log("LOOKING FOR ICONS");
-
-    return {
-      status: 200,
-    };
-  };
-</script>
-
 <script lang="ts">
   import { searchIcons } from "../icons";
 
+  let baseUrl = "devicons-production.up.railway.app";
   let icons = searchIcons();
 
   const onChange = (query: string) => {
@@ -23,6 +12,16 @@
 <main class="max-w-3xl mx-auto px-4 min-h-screen">
   <header class="mt-20 mb-8">
     <h1 class="text-5xl text-center font-bold text-blue-800 mb-4">devicons</h1>
+
+    <h2 class="p-2 text-center mb-2 rounded-sm">
+      <div class="text-gray-500">Search for an icon or go to</div>
+      <a
+        class="font-mono text-sm hover:text-pink-500 hover:underline"
+        href="http://{baseUrl}/rust"
+      >
+        {baseUrl}/&#x2774;query&#x2775;
+      </a>
+    </h2>
 
     <input
       on:keyup={e => onChange(e.currentTarget.value)}
