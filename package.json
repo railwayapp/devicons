@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "dayjs": "^1.10.4",
-    "fuzzy-search": "^3.2.1"
+    "fuse.js": "^6.4.6"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "next",

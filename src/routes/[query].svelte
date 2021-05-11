@@ -9,8 +9,12 @@
 
     if (icon == null) {
       return {
-        status: 404,
+        status: 302,
+        redirect: "/i/railway.svg",
       };
+      // return {
+      //   status: 404,
+      // };
     }
 
     const path = `/i/${icon.file}`;

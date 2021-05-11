@@ -1,4 +1,4 @@
-import FuzzySearch from "fuzzy-search";
+import Fuse from "fuse.js";
 
 export interface Icon {
   name: string;
@@ -13,12 +13,12 @@ const i = (name: string, args?: Partial<Omit<Icon, "name">>): Icon => ({
 });
 
 export const icons: Icon[] = [
-  i("JavaScript", { tags: ["js"] }),
-  i("TypeScript", { tags: ["javascript", "js", "ts"] }),
+  i("JavaScript", { tags: ["js", "express"] }),
+  i("TypeScript", { tags: ["javascript", "ts"] }),
   i("Go"),
   i("Python", { tags: ["py"] }),
   i("Django"),
-  i("Ruby"),
+  i("Ruby", { tags: ["sinatra"] }),
   i("Rust", { tags: ["cargo"] }),
   i("BlitzJS", { file: "blitzjs.png", tags: ["js", "javascript"] }),
   i("Deno", { file: "deno.png" }),
@@ -28,15 +28,19 @@ export const icons: Icon[] = [
   i("Laravel", { tags: ["php"] }),
   i("NextJS", { tags: ["js", "javascript"] }),
   i("Prisma"),
-  i("Rails", { tags: ["ruby"] }),
+  i("Rails"),
   i("Svelte"),
   i("Telegram"),
   i("Rocket", { file: "rocket.png" }),
+  i("Hasura"),
+  i("Umami"),
+  i("Hapi"),
 ];
 
-const searcher = new FuzzySearch(icons, ["name", "file", "tags"], {
-  caseSensitive: true,
-  sort: true,
+const fuse = new Fuse(icons, {
+  includeScore: true,
+  shouldSort: true,
+  keys: ["name", "tags"],
 });
 
 export const searchIcons = (query?: string): Icon[] => {
@@ -44,5 +48,10 @@ export const searchIcons = (query?: string): Icon[] => {
     return icons;
   }
 
-  return searcher.search(query);
+  const result = fuse.search(query);
+
+  console.log(`\n\n--- ${query}`);
+  console.log(result.map(r => r.item));
+
+  return result.map(r => r.item);
 };
