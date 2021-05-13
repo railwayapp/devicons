@@ -107,6 +107,7 @@ export const icons: Icon[] = [
   i("Rails", { [c]: "rails.svg" }),
   i("Railway", { [d]: "railway-dark.svg", [l]: "railway-light.svg" }),
   i("React", { [c]: "react.svg" }),
+  i("Redux", { [c]: "redux.svg" }),
   i("Redis", { [c]: "redis.svg" }),
   i("Rocket", { [c]: "rocket.png" }),
   i("Ruby", { [c]: "ruby.svg" }, ["sinatra"]),
