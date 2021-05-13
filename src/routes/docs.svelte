@@ -1,5 +1,5 @@
 <script lang="ts">
-  let query = "";
+  let query = "expressjs";
   let variant = "dark";
 
   $: href = `/${query}?variant=${variant}`;
