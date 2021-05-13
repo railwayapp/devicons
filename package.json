@@ -19,6 +19,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/jit": "^0.1.18",
     "@types/fuzzy-search": "^2.1.0",
+    "@types/lodash-es": "^4.17.4",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "autoprefixer": "^10.2.5",

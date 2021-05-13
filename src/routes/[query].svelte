@@ -7,7 +7,7 @@
     const query = page.params.query;
     const noFallback = !!page.params.noFallback;
 
-    const icon = searchIcons(query)[0];
+    let icon = searchIcons(query)[0];
 
     if (icon == null) {
       if (noFallback) {
@@ -15,10 +15,7 @@
       }
 
       // By default fallback to railway logo
-      return {
-        status: 302,
-        redirect: "/i/railway.svg",
-      };
+      icon = searchIcons("Railway", false)[0];
     }
 
     const file = getVariant(icon, variant);

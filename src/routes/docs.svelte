@@ -48,7 +48,9 @@
     <img
       alt="Result for {query}"
       src={href}
-      class="max-h-[6rem] max-w-[6rem]"
+      class="{variant === 'light'
+        ? 'bg-black p-2'
+        : ''} max-h-[6rem] max-w-[6rem]"
     />
   {:else}
     <p>No results</p>
