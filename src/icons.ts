@@ -130,6 +130,7 @@ export const icons: Icon[] = [
   i("VueJS", { [c]: "vuejs.svg" }),
   i("Webpack", { [c]: "webpack.svg" }),
   i("Yarn", { [c]: "yarn.svg" }),
+  i("Ackee", { [c]: "ackee.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
