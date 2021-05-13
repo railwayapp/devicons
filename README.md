@@ -1,16 +1,8 @@
-# Marion
+# devicons
 
-<img src="https://static.wikia.nocookie.net/ttte/images/c/c6/MainMarionCGI.png/revision/latest/scale-to-width-down/700?cb=20190328121243" width="300" />
+[devicons.railway.app](https://devicons.railway.app)
 
-A small [Svelte](https://kit.svelte.dev/) app for testing Railway.
-
-## ⚡️ Features
-
-- View date the server was deployed
-- View all plugin and Railway env vars available at runtime
-- Eat memory and burn CPU to test metrics and usage
-
-Feel free to add some something else!
+List of common developer related icons with an "I'm feeling luck" API route that returns the best matching icon for an input query.
 
 ## 🔨 Developing
 
