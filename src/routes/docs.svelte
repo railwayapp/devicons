@@ -2,28 +2,52 @@
   import Index from "./index.svelte";
 
   let query = "";
+  let variant = "dark";
+
+  $: href = `/${query}?variant=${variant}`;
 </script>
 
 <header class="mt-20 mb-8">
   <h1 class="text-5xl text-center font-bold text-blue-800 mb-4">devicons</h1>
 
   <h2 class="p-2 text-center mb-2 rounded-sm">
-    <div class="text-gray-500">Search for an icon or go to</div>
+    <div class="text-gray-500">
+      Shows what icon is found for the query and variant combination
+    </div>
+    <p>
+      <a {href} class="font-mono text-sm text-pink-500" target="_blank">
+        {href}
+      </a>
+    </p>
   </h2>
 
-  <input
-    bind:value={query}
-    class="px-3 py-3 w-full"
-    placeholder="Search..."
-    type="search"
-  />
+  <div class="flex items-center space-x-2">
+    <div class="w-full flex-grow">
+      <label for="query">Query</label>
+      <input
+        bind:value={query}
+        name="query"
+        placeholder="Search..."
+        type="search"
+      />
+    </div>
+
+    <div class="w-28">
+      <label for="variant">Variant</label>
+      <select bind:value={variant} name="variant">
+        <option>dark</option>
+        <option>light</option>
+        <option>color</option></select
+      >
+    </div>
+  </div>
 </header>
 
 <div>
   {#if query !== ""}
     <img
       alt="Result for {query}"
-      src="/{query}"
+      src={href}
       class="max-h-[6rem] max-w-[6rem]"
     />
   {:else}

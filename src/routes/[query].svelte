@@ -1,23 +1,28 @@
 <script lang="ts" context="module">
   import type { Load } from "@sveltejs/kit";
-  import { searchIcons } from "../icons";
+  import { getVariant, searchIcons } from "../icons";
 
   export const load: Load = async ({ page }) => {
+    const variant = page.query.get("variant");
     const query = page.params.query;
+    const noFallback = !!page.params.noFallback;
 
     const icon = searchIcons(query)[0];
 
     if (icon == null) {
+      if (noFallback) {
+        return { status: 404 };
+      }
+
+      // By default fallback to railway logo
       return {
         status: 302,
         redirect: "/i/railway.svg",
       };
-      // return {
-      //   status: 404,
-      // };
     }
 
-    const path = `/i/${icon.file}`;
+    const file = getVariant(icon, variant);
+    const path = `/i/${file}`;
 
     return {
       status: 302,

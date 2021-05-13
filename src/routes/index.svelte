@@ -34,13 +34,28 @@
   class="grid gap-4 grid-cols-2 sm:grid-cols-4 md:grid-cols-6 pb-4 mb-16"
 >
   {#each icons as icon}
-    <a
-      href="/i/{icon.file}"
-      target="_blank"
-      class="icon icon-${icon.name} flex items-center justify-center p-2 rounded transition-all border border-transparent hover:border-pink-500"
-    >
-      <img src="/i/{icon.file}" alt="{icon.name} Icon" class="max-h-[6rem]" />
-    </a>
+    {#each Object.keys(icon.variants) as variant}
+      <a
+        href="/i/{icon.variants[variant]}"
+        target="_blank"
+        class="{variant === 'light'
+          ? 'bg-black'
+          : ''} group relative flex items-center justify-center p-2 rounded transition-all"
+      >
+        <img
+          src="/i/{icon.variants[variant]}"
+          alt="{icon.name} {variant} Icon"
+          class="max-h-[6rem]"
+        />
+
+        <div
+          class="group-hover:opacity-100 opacity-0 transition-opacity absolute bg-gray-200 bg-opacity-95 flex flex-col items-center px-2 py-1 left-0 bottom-0 right-0"
+        >
+          <span class="text-sm font-medium">{icon.name}</span>
+          <span class="text-[0.6rem]">{variant}</span>
+        </div>
+      </a>
+    {/each}
   {/each}
 </section>
 
