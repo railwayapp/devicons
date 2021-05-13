@@ -1,7 +1,7 @@
 <script lang="ts">
   import { searchIcons } from "../icons";
 
-  let baseUrl = "devicons-production.up.railway.app";
+  let baseUrl = "devicons.railway.app";
   let icons = searchIcons();
 
   const onChange = (query: string) => {
@@ -12,14 +12,20 @@
 <header class="mt-20 mb-8">
   <h1 class="text-5xl text-center font-bold text-blue-800 mb-4">devicons</h1>
 
-  <h2 class="p-2 text-center mb-2 rounded-sm">
-    <div class="text-gray-500">Search for an icon or go to</div>
+  <h2 class="p-2 text-center mb-2 rounded-sm text-gray-500 leading-relaxed">
+    <p class="">Search for an icon or go to</p>
     <a
-      class="font-mono text-sm hover:text-pink-500 hover:underline"
+      class="text-pink-500 font-mono text-sm hover:text-pink-500 hover:underline"
       href="http://{baseUrl}/rust"
     >
       {baseUrl}/&#x2774;query&#x2775;
     </a>
+    <p>
+      for an icon that best matches the query. <a
+        href="/docs"
+        class="text-pink-900 hover:underline">(Docs)</a
+      >
+    </p>
   </h2>
 
   <input

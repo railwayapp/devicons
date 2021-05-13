@@ -1,6 +1,4 @@
 <script lang="ts">
-  import Index from "./index.svelte";
-
   let query = "";
   let variant = "dark";
 
@@ -8,7 +6,11 @@
 </script>
 
 <header class="mt-20 mb-8">
-  <h1 class="text-5xl text-center font-bold text-blue-800 mb-4">devicons</h1>
+  <a href="/" class="cursor-pointer">
+    <h1 class="text-5xl text-center font-bold text-blue-800 mb-4">
+      devicons
+    </h1></a
+  >
 
   <h2 class="p-2 text-center mb-2 rounded-sm">
     <div class="text-gray-500">

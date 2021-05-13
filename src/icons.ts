@@ -99,6 +99,8 @@ export const icons: Icon[] = [
   i("NPM", { [c]: "npm.svg" }),
   i("OCaml", { [c]: "ocaml.svg" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
+  i("PHP", { [c]: "php.svg" }),
+  i("PostgreSQL", { [c]: "postgresql.svg" }),
   i("Prisma", { [d]: "prisma-dark.svg", [l]: "prisma-light.svg" }),
   i("Python", { [c]: "python.svg" }),
   i("R", { [c]: "r.svg" }),
