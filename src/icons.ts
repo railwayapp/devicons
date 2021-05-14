@@ -67,7 +67,7 @@ export const icons: Icon[] = [
   i("F#", { [c]: "fsharp.svg" }),
   i("Gatsby", { [c]: "gatsby.svg" }),
   i("Git", { [c]: "git.svg" }),
-  i("GitHub", { [c]: "github.svg" }),
+  i("GitHub", { [d]: "github-dark.svg", [l]: "github-light.svg" }),
   i("GitLab", { [c]: "gitlab.svg" }),
   i("Go", { [c]: "go.svg" }, ["golang"]),
   i("Google", { [c]: "google.svg" }),
@@ -132,6 +132,7 @@ export const icons: Icon[] = [
   i("Webpack", { [c]: "webpack.svg" }),
   i("Yarn", { [c]: "yarn.svg" }),
   i("Ackee", { [c]: "ackee.svg" }),
+  i("VSCode", { [c]: "vscode.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
