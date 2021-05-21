@@ -38,6 +38,7 @@ export const icons: Icon[] = [
   i("Bootstrap", { [c]: "bootstrap.svg" }),
   i("Bower", { [c]: "bower.svg" }),
   i("C", { [c]: "c.svg" }),
+  i("Calendso", { [c]: "calendso.svg" }),
   i("Chrome", { [c]: "chrome.svg" }),
   i("Clojure", { [c]: "clojure.svg" }),
   i("ClojureScript", { [c]: "clojurescript.svg" }),
