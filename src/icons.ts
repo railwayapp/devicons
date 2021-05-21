@@ -66,6 +66,7 @@ export const icons: Icon[] = [
   i("Flutter", { [c]: "flutter.svg" }),
   i("F#", { [c]: "fsharp.svg" }),
   i("Gatsby", { [c]: "gatsby.svg" }),
+  i("Ghost", { [c]: "ghost.svg" }),
   i("Git", { [c]: "git.svg" }),
   i("GitHub", { [d]: "github-dark.svg", [l]: "github-light.svg" }),
   i("GitLab", { [c]: "gitlab.svg" }),
