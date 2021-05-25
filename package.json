@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --port 3002",
     "build": "svelte-kit build",
     "start": "node build/index.js",
     "clean": "rm -rf .svelte build",
