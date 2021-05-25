@@ -133,6 +133,7 @@ export const icons: Icon[] = [
   i("Yarn", { [c]: "yarn.svg" }),
   i("Ackee", { [c]: "ackee.svg" }),
   i("VSCode", { [c]: "vscode.svg" }),
+  i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
 ];
 
 const fuse = new Fuse(icons, {
