@@ -123,7 +123,7 @@ export const icons: Icon[] = [
   i("Slack", { [c]: "slack.svg" }),
   i("Sourcetree", { [c]: "sourcetree.svg" }),
   i("Spring", { [c]: "spring.svg" }),
-  i("Strapi", { [d]: "strapi-dark.png", [l]: "strapi-light.png" }),
+  i("Strapi", { [d]: "strapi.svg" }),
   i("SQLAlchemy", { [c]: "sqlalchemy.svg" }),
   i("Svelte", { [c]: "svelte.svg" }),
   i("Swift", { [c]: "swift.svg" }),
