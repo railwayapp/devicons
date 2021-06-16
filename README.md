@@ -16,3 +16,7 @@ yarn dev
 ## 🚀 Deploying
 
 Just `railway up` or deploy from GitHub and choose this repo.
+
+## Licensing
+
+These icons were taken from the original source website whenever possible. If you are the owner of one of these languages/websites and do not want your icon listed on devicons, please reach out and we will take it down immediately.
