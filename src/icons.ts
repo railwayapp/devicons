@@ -119,6 +119,7 @@ export const icons: Icon[] = [
   i("Safari", { [c]: "safari.svg" }),
   i("Sass", { [c]: "sass.svg" }),
   i("Scala", { [c]: "scala.svg" }),
+  i("Shiori", { [c]: "shiori.png" }),
   i("Sketch", { [c]: "sketch.svg" }),
   i("Slack", { [c]: "slack.svg" }),
   i("Sourcetree", { [c]: "sourcetree.svg" }),
