@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-/.svelte
-/build
-/functions
-yarn-error.*
+/.svelte-kit
+/package
+build
