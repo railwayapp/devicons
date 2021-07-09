@@ -99,6 +99,7 @@ export const icons: Icon[] = [
   i("MongoDB", { [c]: "mongodb.svg" }),
   i("MySQL", { [c]: "mysql.svg" }),
   i("NextJS", { [c]: "nestjs.svg" }),
+  i("NocoDB", { [c]: "nocodb.png" }),
   i("NodeJS", { [c]: "nodejs.svg" }),
   i("NPM", { [c]: "npm.svg" }),
   i("OCaml", { [c]: "ocaml.svg" }),
