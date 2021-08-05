@@ -48,6 +48,7 @@ export const icons: Icon[] = [
   i("C#", { [c]: "csharp.svg" }),
   i("CSS3", { [c]: "css3.svg" }),
   i("Cucumber", { [c]: "cucumber.svg" }),
+  i("Cusdis", { [c]: "cusdis.png" }),
   i("D3", { [c]: "d3js.svg" }),
   i("Dark", { [c]: "dart.svg" }),
   i("Deno", { [c]: "deno.svg" }),
