@@ -100,6 +100,7 @@ export const icons: Icon[] = [
   i("MinIO", { [c]: "minio.svg" }),
   i("MongoDB", { [c]: "mongodb.svg" }),
   i("MySQL", { [c]: "mysql.svg" }),
+  i("n8n", { [c]: "n8n.svg" }),
   i("NextJS", { [c]: "nestjs.svg" }),
   i("NocoDB", { [c]: "nocodb.png" }),
   i("NodeJS", { [c]: "nodejs.svg" }),
