@@ -30,6 +30,7 @@ export const icons: Icon[] = [
   i("AngularJS", { [c]: "angularjs.svg" }),
   i("Apple", { [d]: "apple-dark.svg", [l]: "apple-light.svg" }),
   i("AWS", { [c]: "aws.svg" }),
+   i("Azure", { [c]: "azure.svg" }),
   i("Babel", { [c]: "babel.svg" }),
   i("BackbonJS", { [c]: "backbonejs.svg" }),
   i("Bash", { [c]: "bash.svg" }),
