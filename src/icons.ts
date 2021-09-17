@@ -145,6 +145,8 @@ export const icons: Icon[] = [
   i("Ackee", { [c]: "ackee.svg" }),
   i("VSCode", { [c]: "vscode.svg" }),
   i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
+   i("Windows 10", { [c]: "windows10.svg" }),
+   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
