@@ -105,7 +105,7 @@ export const icons: Icon[] = [
   i("n8n", { [c]: "n8n.svg" }),
   i("NextJS", { [c]: "nestjs.svg" }),
   i("NocoDB", { [c]: "nocodb.png" }),
-  i("NodeJS", { [c]: "nodejs.svg", [d]: "nodejs-black.svg", [l]: "nodejs-light.svg" }),
+  i("NodeJS", { [c]: "nodejs.svg", [d]: "nodejs-black.svg", [l]: "nodejs-white.svg" }),
   i("NPM", { [c]: "npm.svg" }),
   i("OCaml", { [c]: "ocaml.svg" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
