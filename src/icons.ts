@@ -30,7 +30,7 @@ export const icons: Icon[] = [
   i("AngularJS", { [c]: "angularjs.svg" }),
   i("Apple", { [d]: "apple-dark.svg", [l]: "apple-light.svg" }),
   i("AWS", { [c]: "aws.svg" }),
-   i("Azure", { [c]: "azure.svg" }),
+  i("Azure", { [c]: "azure.svg" }),
   i("Babel", { [c]: "babel.svg" }),
   i("BackbonJS", { [c]: "backbonejs.svg" }),
   i("Bash", { [c]: "bash.svg" }),
@@ -97,6 +97,7 @@ export const icons: Icon[] = [
   i("Lua", { [c]: "lua.svg" }),
   i("MaterialUI", { [c]: "materialui.svg" }),
   i("Matlab", { [c]: "matlab.svg" }),
+  i("Metabase", { [c]: "metabase.svg" }),
   i("Meteor", { [c]: "meteor.svg" }),
   i("MinIO", { [c]: "minio.svg" }),
   i("MongoDB", { [c]: "mongodb.svg" }),
@@ -145,8 +146,8 @@ export const icons: Icon[] = [
   i("Ackee", { [c]: "ackee.svg" }),
   i("VSCode", { [c]: "vscode.svg" }),
   i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
-   i("Windows 10", { [c]: "windows10.svg" }),
-   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
+  i("Windows 10", { [c]: "windows10.svg" }),
+  i("Windows Vista", { [c]: "Windows_Vista.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
