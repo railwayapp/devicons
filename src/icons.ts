@@ -144,7 +144,7 @@ export const icons: Icon[] = [
   i("Webpack", { [c]: "webpack.svg" }),
   i("Yarn", { [c]: "yarn.svg" }),
   i("Ackee", { [c]: "ackee.svg" }),
-  i("VSCode", { [c]: "vscode.svg" }),
+  i("VSCode", { [c]: "vscode.svg" }, ["openvscode"]),
   i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
   i("Windows 10", { [c]: "windows10.svg" }),
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
