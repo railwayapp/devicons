@@ -65,6 +65,7 @@ export const icons: Icon[] = [
   i("Erlang", { [c]: "erlang.svg" }),
   i("FastAPI", { [c]: "fastapi.svg" }),
   i("Fastify", { [d]: "fastify-dark.svg", [l]: "fastify-light.svg" }),
+  i("Fider", { [c]: "fider.svg" }),
   i("Figma", { [c]: "figma.svg" }),
   i("Firebase", { [c]: "firebase.svg" }),
   i("Flask", { [d]: "flask-dark.svg", [l]: "flask-light.svg" }),
