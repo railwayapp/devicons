@@ -136,6 +136,7 @@ export const icons: Icon[] = [
   i("Svelte", { [c]: "svelte.svg" }),
   i("Swift", { [c]: "swift.svg" }),
   i("Telegram", { [c]: "telegram.svg" }),
+  i("tRPC", { [c]: "trpc.png" }),
   i("Twitter", { [c]: "twitter.svg" }),
   i("TypeScript", { [c]: "typescript.svg" }),
   i("Ubuntu", { [c]: "ubuntu.svg" }),
