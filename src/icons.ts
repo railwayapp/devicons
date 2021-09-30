@@ -99,6 +99,7 @@ export const icons: Icon[] = [
   i("MaterialUI", { [c]: "materialui.svg" }),
   i("Matlab", { [c]: "matlab.svg" }),
   i("Metabase", { [c]: "metabase.svg" }),
+  i("Maildev", { [c]: "maildev.svg" }),
   i("Meteor", { [c]: "meteor.svg" }),
   i("MinIO", { [c]: "minio.svg" }),
   i("MongoDB", { [c]: "mongodb.svg" }),
