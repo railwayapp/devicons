@@ -75,7 +75,7 @@ export const icons: Icon[] = [
   i("Gatsby", { [c]: "gatsby.svg" }),
   i("Ghost", { [c]: "ghost.svg" }),
   i("Git", { [c]: "git.svg" }),
-  i("Gitpod", { [c]: "gitpod.svg"}, ["gitpod"]),
+  i("Gitpod", { [c]: "gitpod.svg"}, ["gitpod", "openvscode"]),
   i("GitHub", { [d]: "github-dark.svg", [l]: "github-light.svg" }),
   i("GitLab", { [c]: "gitlab.svg" }),
   i("Go", { [c]: "go.svg" }, ["golang"]),
