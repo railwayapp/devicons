@@ -69,6 +69,7 @@ export const icons: Icon[] = [
   i("Fider", { [c]: "fider.svg" }),
   i("Figma", { [c]: "figma.svg" }),
   i("Firebase", { [c]: "firebase.svg" }),
+  i("Firefox", { [c]: "firefox.svg" }),
   i("Flask", { [d]: "flask-dark.svg", [l]: "flask-light.svg" }),
   i("Flutter", { [c]: "flutter.svg" }),
   i("F#", { [c]: "fsharp.svg" }),
