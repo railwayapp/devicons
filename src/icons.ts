@@ -158,6 +158,7 @@ export const icons: Icon[] = [
   i("Windows 10", { [c]: "windows10.svg" }),
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
   i("Windows 11", { [c]: "w11.svg" }),
+  i("Windows 7", { [c]: "w7.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
