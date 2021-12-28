@@ -25,7 +25,6 @@ const i = (name: string, variants: Variants, tags?: string[]): Icon => ({
 });
 
 export const icons: Icon[] = [
-  i("NextJS", { [l]: "nextjs-light.svg", [d]: "nextjs-dark.svg" }),
   i("Android", { [c]: "android.svg" }),
   i("AngularJS", { [c]: "angularjs.svg" }),
   i("Apple", { [d]: "apple-dark.svg", [l]: "apple-light.svg" }),
@@ -50,13 +49,13 @@ export const icons: Icon[] = [
     "vscode-server",
   ]),
   i("CouchDB", { [c]: "couchdb.svg" }),
-  i("C++", { [c]: "cplusplus.svg" }),
+  i("C++", { [c]: "cplusplus.png" }),
   i("C#", { [c]: "csharp.svg" }),
   i("CSS3", { [c]: "css3.svg" }),
   i("Cucumber", { [c]: "cucumber.svg" }),
   i("Cusdis", { [c]: "cusdis.png" }),
   i("D3", { [c]: "d3js.svg" }),
-  i("Dark", { [c]: "dart.svg" }),
+  i("Dart", { [c]: "dart.svg" }),
   i("Deno", { [c]: "deno.svg" }),
   i("Discord", { [c]: "discord.svg" }),
   i("Django", { [c]: "django.svg" }),
@@ -114,11 +113,13 @@ export const icons: Icon[] = [
   i("MongoDB", { [c]: "mongodb.svg" }),
   i("MySQL", { [c]: "mysql.svg" }),
   i("n8n", { [c]: "n8n.svg" }),
-  i("NextJS", { [c]: "nestjs.svg" }),
+  i("NestJS", { [c]: "nestjs.svg" }),
+  i("NextJS", { [l]: "nextjs-light.svg", [d]: "nextjs-dark.svg" }),
   i("NGINX", { [c]: "nginx.svg" }),
   i("NocoDB", { [c]: "nocodb.png" }),
   i("NodeJS", { [c]: "nodejs.svg" }),
   i("NPM", { [c]: "npm.svg" }),
+  i("NuxtJS", { [c]: "nuxtjs.svg", [l]: "nuxtjs-light.svg", [d]: "nuxtjs-dark.svg" }),
   i("OCaml", { [c]: "ocaml.svg" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
   i("PHP", { [c]: "php.svg" }),
@@ -159,10 +160,10 @@ export const icons: Icon[] = [
   i("Yarn", { [c]: "yarn.svg" }),
   i("Ackee", { [c]: "ackee.svg" }),
   i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
-  i("Windows 10", { [c]: "windows10.svg" }),
-  i("Windows Vista", { [c]: "Windows_Vista.svg" }),
-  i("Windows 11", { [c]: "w11.svg" }),
   i("Windows 7", { [c]: "w7.svg" }),
+  i("Windows 10", { [c]: "windows10.svg" }),
+  i("Windows 11", { [c]: "w11.svg" }),
+  i("Windows Vista", { [c]: "Windows_Vista.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
