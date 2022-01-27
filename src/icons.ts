@@ -102,6 +102,7 @@ export const icons: Icon[] = [
   i("Ktor", { [c]: "ktor.svg" }),
   i("Kubernetes", { [c]: "kubernetes.svg" }),
   i("Laravel", { [c]: "laravel.svg" }),
+  i("Linux", { [c]: "tux.svg" }),
   i("LogChimp", { [c]: "logchimp.svg" }),
   i("Lua", { [c]: "lua.svg" }),
   i("MaterialUI", { [c]: "materialui.svg" }),
@@ -124,6 +125,8 @@ export const icons: Icon[] = [
   i("Phoenix", { [c]: "phoenix.svg" }),
   i("PHP", { [c]: "php.svg" }),
   i("PostgreSQL", { [c]: "postgresql.svg" }),
+  i("Postman", { [c]: "postman.svg" }),
+  i("Puppeteer", { [c]: "puppeteer.svg" }),
   i("Prisma", { [d]: "prisma-dark.svg", [l]: "prisma-light.svg" }),
   i("Python", { [c]: "python.svg" }),
   i("Qovery", { [c]: "qovery.svg" }),
@@ -139,6 +142,7 @@ export const icons: Icon[] = [
   i("Safari", { [c]: "safari.svg" }),
   i("Sass", { [c]: "sass.svg" }),
   i("Scala", { [c]: "scala.svg" }),
+  i("Selenium", { [c]: "selenium.svg" }),
   i("Shiori", { [c]: "shiori.png" }),
   i("Sketch", { [c]: "sketch.svg" }),
   i("Slack", { [c]: "slack.svg" }),
@@ -164,6 +168,7 @@ export const icons: Icon[] = [
   i("Windows 10", { [c]: "windows10.svg" }),
   i("Windows 11", { [c]: "w11.svg" }),
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
+  i("Xamarin", { [c]: "xamarin.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
