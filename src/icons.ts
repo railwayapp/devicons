@@ -117,7 +117,7 @@ export const icons: Icon[] = [
   i("NextJS", { [l]: "nextjs-light.svg", [d]: "nextjs-dark.svg" }),
   i("NGINX", { [c]: "nginx.svg" }),
   i("NocoDB", { [c]: "nocodb.png" }),
-  i("NodeJS", { [c]: "nodejs.svg" }),
+  i("NodeJS", { [c]: "nodejs.svg", [l]: "nodejs-light.svg" ,[d]: "nodejs-dark.svg" }),
   i("NPM", { [c]: "npm.svg" }),
   i("NuxtJS", { [c]: "nuxtjs.svg", [l]: "nuxtjs-light.svg", [d]: "nuxtjs-dark.svg" }),
   i("OCaml", { [c]: "ocaml.svg" }),
@@ -131,6 +131,7 @@ export const icons: Icon[] = [
   i("Rails", { [c]: "rails.svg" }),
   i("Railway", { [d]: "railway-dark.svg", [l]: "railway-light.svg" }),
   i("React", { [c]: "react.svg" }),
+  i("RedHat", { [l]: "redhat-light.svg", [d]: "redhat-dark.svg" }),
   i("Redux", { [c]: "redux.svg" }),
   i("Redis", { [c]: "redis.svg" }),
   i("Rocket", { [c]: "rocket.png" }),
@@ -164,6 +165,7 @@ export const icons: Icon[] = [
   i("Windows 10", { [c]: "windows10.svg" }),
   i("Windows 11", { [c]: "w11.svg" }),
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
+  
 ];
 
 const fuse = new Fuse(icons, {
