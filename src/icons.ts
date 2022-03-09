@@ -130,6 +130,7 @@ export const icons: Icon[] = [
   i("Prisma", { [d]: "prisma-dark.svg", [l]: "prisma-light.svg" }),
   i("Python", { [c]: "python.svg" }),
   i("Qovery", { [c]: "qovery.svg" }),
+  i("Quirrel", { [c]: "quirrel.png" }),
   i("R", { [c]: "r.svg" }),
   i("Rails", { [c]: "rails.svg" }),
   i("Railway", { [d]: "railway-dark.svg", [l]: "railway-light.svg" }),
