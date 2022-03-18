@@ -147,6 +147,7 @@ export const icons: Icon[] = [
   i("RedHat", { [l]: "redhat-light.svg", [d]: "redhat-dark.svg" }),
   i("Redux", { [c]: "redux.svg" }),
   i("Redis", { [c]: "redis.svg" }),
+  i("Remix", { [c]: "remix.svg" }),
   i("Rocket", { [c]: "rocket.png" }),
   i("Ruby", { [c]: "ruby.svg" }, ["sinatra"]),
   i("Rust", { [d]: "rust-dark.svg", [l]: "rust-light.svg" }),
