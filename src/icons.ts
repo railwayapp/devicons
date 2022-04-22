@@ -112,6 +112,7 @@ export const icons: Icon[] = [
   i("Maildev", { [c]: "maildev.svg" }),
   i("Meteor", { [c]: "meteor.svg" }),
   i("MinIO", { [c]: "minio.svg" }),
+  i("Mirotalk", { [c]: "mirotalk.svg" }),
   i("MongoDB", { [c]: "mongodb.svg" }),
   i("MySQL", { [c]: "mysql.svg" }),
   i("n8n", { [c]: "n8n.svg" }),
