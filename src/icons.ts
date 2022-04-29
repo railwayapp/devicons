@@ -40,6 +40,7 @@ export const icons: Icon[] = [
   i("BlitzJS", { [c]: "blitzjs.svg" }),
   i("Bootstrap", { [c]: "bootstrap.svg" }),
   i("Bower", { [c]: "bower.svg" }),
+  i("Browserless", { [c]: "browserless.png" }),
   i("C", { [c]: "c.svg" }),
   i("Calendso", { [c]: "calendso.svg" }),
   i("Chrome", { [c]: "chrome.svg" }),
