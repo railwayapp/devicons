@@ -105,6 +105,7 @@ export const icons: Icon[] = [
   i("Kubernetes", { [c]: "kubernetes.svg" }),
   i("Laravel", { [c]: "laravel.svg" }),
   i("Linux", { [c]: "tux.svg" }),
+  i("Listmonk", { [c]: "listmonk.png" }),
   i("LogChimp", { [c]: "logchimp.svg" }),
   i("Lua", { [c]: "lua.svg" }),
   i("MaterialUI", { [c]: "materialui.svg" }),
