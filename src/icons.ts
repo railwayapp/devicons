@@ -174,6 +174,8 @@ export const icons: Icon[] = [
   i("Ubuntu", { [c]: "ubuntu.svg" }),
   i("Umami", { [d]: "umami-dark.svg", [l]: "umami-light.svg" }),
   i("Vim", { [c]: "vim.svg" }),
+  i("ViteJS", { [c]: "vitejs.svg" }),
+  i("Visual Studio Code", { [c]: "visual-studio-code.svg" }),
   i("VueJS", { [c]: "vuejs.svg" }),
   i("Webpack", { [c]: "webpack.svg" }),
   i("Yarn", { [c]: "yarn.svg" }),
