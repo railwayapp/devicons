@@ -78,6 +78,7 @@ export const icons: Icon[] = [
   i("Ethereum", { [c]: "ethereum.svg" }),
   i("FastAPI", { [c]: "fastapi.svg" }),
   i("Fastify", { [d]: "fastify-dark.svg", [l]: "fastify-light.svg" }),
+  i("Fiber", { [c]: "fiber.svg" }),
   i("Fider", { [c]: "fider.svg" }),
   i("Figma", { [c]: "figma.svg" }),
   i("Firebase", { [c]: "firebase.svg" }),
