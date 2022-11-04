@@ -135,11 +135,7 @@ export const icons: Icon[] = [
   i("NextJS", { [l]: "nextjs-light.svg", [d]: "nextjs-dark.svg" }),
   i("NGINX", { [c]: "nginx.svg" }),
   i("NocoDB", { [c]: "nocodb.png" }),
-  i("NodeJS", {
-    [c]: "nodejs.svg",
-    [l]: "nodejs-light.svg",
-    [d]: "nodejs-dark.svg",
-  }),
+  i("NodeJS", { [c]: "nodejs.svg" }),
   i("NPM", { [c]: "npm.svg" }),
   i("NuxtJS", {
     [c]: "nuxtjs.svg",
