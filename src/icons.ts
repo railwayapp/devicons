@@ -198,6 +198,7 @@ export const icons: Icon[] = [
     [d]: "vaultwarden-dark.svg",
     [l]: "vaultwarden-light.svg",
   }),
+  i("Waline", { [c]: "waline.svg" }),
   i("WebAssembly", { [c]: "wasm.svg" }, ["wasm"]),
   i("Windows 7", { [c]: "w7.svg" }),
   i("Windows 10", { [c]: "windows10.svg" }),
