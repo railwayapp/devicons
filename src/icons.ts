@@ -1,5 +1,4 @@
 import Fuse from "fuse.js";
-import { orderBy } from "lodash-es";
 
 export type Variants = Record<string, string>;
 
@@ -207,6 +206,7 @@ export const icons: Icon[] = [
   i("Windows 11", { [c]: "w11.svg" }),
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
   i("Xamarin", { [c]: "xamarin.svg" }),
+  i("Zig", { [c]: "zig.svg" }),
 ];
 
 const fuse = new Fuse(icons, {
