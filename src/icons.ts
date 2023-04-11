@@ -51,7 +51,7 @@ export const icons: Icon[] = [
   i("ClojureScript", { [c]: "clojurescript.svg" }),
   i("Cmake", { [c]: "cmake.svg" }),
   i("CoffeeScript", { [c]: "coffeescript.svg" }),
-  i("Coder", { [d]: "coder-dark.svg", [l]: "coder-light.svg" }, [
+  i("Coder", { [d]: "coder-dark.png", [l]: "coder-light.png" }, [
     "vscode-server",
   ]),
   i("CouchDB", { [c]: "couchdb.svg" }),
