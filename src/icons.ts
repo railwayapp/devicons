@@ -48,6 +48,7 @@ export const icons: Icon[] = [
   i("ChatGPT", { [c]: "chatgpt.svg" }),
   i("Chrome", { [c]: "chrome.svg" }),
   i("Circle-ci", { [c]: "circleci.svg" }),
+  i("Clickhouse", { [c]: "clickhouse.svg" }),
   i("Clojure", { [c]: "clojure.svg" }),
   i("ClojureScript", { [c]: "clojurescript.svg" }),
   i("Cmake", { [c]: "cmake.svg" }),
