@@ -187,6 +187,7 @@ export const icons: Icon[] = [
   i("Terraform", { [c]: "terraform.svg" }),
   i("Travis-ci", { [c]: "travis-ci.svg" }),
   i("tRPC", { [c]: "trpc.png" }),
+  i("Timescale", { [d]: "timescale-dark.svg", [l]: "timescale-light.svg" }),
   i("Twitter", { [c]: "twitter.svg" }),
   i("TypeScript", { [c]: "typescript.svg" }),
   i("Ubuntu", { [c]: "ubuntu.svg" }),
