@@ -188,6 +188,7 @@ export const icons: Icon[] = [
   i("SQLAlchemy", { [c]: "sqlalchemy.svg" }),
   i("Svelte", { [c]: "svelte.svg" }),
   i("Swift", { [c]: "swift.svg" }),
+  i("Tailscale", { [c]: "tailscale.svg"}),
   i("Telegram", { [c]: "telegram.svg" }),
   i("Terraform", { [c]: "terraform.svg" }),
   i("Travis-ci", { [c]: "travis-ci.svg" }),
