@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.30435,0,0,1.27321,-66.5217,-59.8408)">
+        <path d="M419,133.396C419,85.713 381.211,47 334.667,47L135.333,47C88.789,47 51,85.713 51,133.396L51,337.604C51,385.287 88.789,424 135.333,424L334.667,424C381.211,424 419,385.287 419,337.604L419,133.396Z" style="fill:url(#_Linear1);"/>
+    </g>
+    <g transform="matrix(5.78313,0,0,5.78313,-109.88,-104.096)">
+        <circle cx="40.625" cy="59.5" r="6.625" style="fill:white;"/>
+        <circle cx="60.5" cy="59.5" r="6.625" style="fill:white;"/>
+        <circle cx="40.625" cy="79.375" r="6.625" style="fill:white;fill-opacity:0.2;"/>
+        <circle cx="80.375" cy="79.375" r="6.625" style="fill:white;fill-opacity:0.2;"/>
+        <circle cx="60.5" cy="79.375" r="6.625" style="fill:white;"/>
+        <circle cx="80.375" cy="59.5" r="6.625" style="fill:white;"/>
+        <circle cx="40.625" cy="39.625" r="6.625" style="fill:white;fill-opacity:0.2;"/>
+        <circle cx="60.5" cy="39.625" r="6.625" style="fill:white;fill-opacity:0.2;"/>
+        <circle cx="80.375" cy="39.625" r="6.625" style="fill:white;fill-opacity:0.2;"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.000443373,377,-368,0.000454217,235,47)"><stop offset="0" style="stop-color:rgb(35,32,31);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(29,32,36);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
