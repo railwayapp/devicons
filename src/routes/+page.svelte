@@ -1,7 +1,7 @@
 <script lang="ts">
   import { searchIcons } from "../icons";
 
-  let baseUrl = "devicons.railway.app";
+  let baseUrl = import.meta.env.VITE_BASE_URL;
   let icons = searchIcons();
 
   const onChange = (query: string) => {
@@ -16,7 +16,7 @@
     <p class="">Search for an icon or go to</p>
     <a
       class="text-pink-500 font-mono text-sm hover:text-pink-500 hover:underline"
-      href="http://{baseUrl}/rust"
+      href="{baseUrl}/rust"
     >
       {baseUrl}/&#x2774;query&#x2775;
     </a>
