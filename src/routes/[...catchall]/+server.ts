@@ -3,9 +3,9 @@ import { error } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 import { getVariant, searchIcons } from "../../icons";
 
-export const GET: RequestHandler = async ({ params, url }) => {
+export const GET: RequestHandler = async ({ params, url, request }) => {
   const variant = url.searchParams.get("variant");
-  const query = params.query;
+  const query = params.catchall;
   const noFallback = !!params.noFallback;
 
   let icon = searchIcons(query, false)[0];
