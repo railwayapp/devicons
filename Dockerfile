@@ -9,10 +9,10 @@ COPY package.json package-lock.json ./
 # Install deps
 RUN npm ci
 
-RUN ls -l
-
 # Bundle app source
 COPY . ./
+
+ARG VITE_BASE_URL
 
 # Build
 RUN npm run build
