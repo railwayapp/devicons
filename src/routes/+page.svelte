@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { searchIcons } from "../icons";
+  import { searchIcons } from '../icons';
 
   let baseUrl = import.meta.env.VITE_BASE_URL;
   let icons = searchIcons();

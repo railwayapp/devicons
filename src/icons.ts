@@ -8,11 +8,6 @@ export interface Icon {
   tags?: string[];
 }
 
-// const i = (name: string, args?: Partial<Omit<Icon, "name">>): Icon => ({
-//   name,
-//   file: `${name.toLowerCase()}.svg`,
-//   ...args,
-// });
 const l = "light";
 const d = "dark";
 const c = "color";
