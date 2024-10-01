@@ -4,7 +4,7 @@ import { getVariant, searchIcons } from '../../icons';
 
 export const GET: RequestHandler = async ({ params, url, request }) => {
   const variant = url.searchParams.get('variant');
-  const query = params.query;
+  const query = params.query?.split('.')[0];
   const noFallback = !!params.noFallback;
 
   let icon = searchIcons(query, false)[0];
