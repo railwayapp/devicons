@@ -145,7 +145,10 @@ export const icons: Icon[] = [
     [d]: "nuxtjs-dark.svg",
   }),
   i("OCaml", { [c]: "ocaml.svg" }),
-  i("OpenAI", { [c]: "openai.svg" }),
+  i("OpenAI", {
+    [c]: "openai.svg",
+    [l]: "openai-light.svg",
+  }),
   i("OpenTelemetry", { [c]: "otel.png" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
   i("PHP", { [c]: "php.svg" }),
