@@ -218,7 +218,10 @@ export const icons: Icon[] = [
   i("Windows Vista", { [c]: "Windows_Vista.svg" }),
   i("Xamarin", { [c]: "xamarin.svg" }),
   i("Zig", { [c]: "zig.svg" }),
-  i("Sails", { [c]: "sails.png" }),
+  i("Sails", {
+    [c]: "sails.svg",
+    [d]: "sails-extended.png",
+  })
 ];
 
 const fuse = new Fuse(icons, {
