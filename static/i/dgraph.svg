@@ -1,75 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   role="img"
-   viewBox="-4.65 -4.65 64 63.999998"
-   version="1.1"
-   id="svg13"
-   sodipodi:docname="dgraph-icon.svg"
-   width="64"
-   height="64"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-  <metadata
-     id="metadata19">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Dgraph logo</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs17" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     id="namedview15"
-     showgrid="false"
-     inkscape:zoom="1.4019851"
-     inkscape:cx="120.9"
-     inkscape:cy="39.525002"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg13" />
-  <title
-     id="title2">Dgraph logo</title>
-  <radialGradient
-     id="a"
-     cx="29.431999"
-     cy="35"
-     r="32.335999"
-     gradientUnits="userSpaceOnUse"
-     gradientTransform="matrix(0.9142725,0,0,0.9142725,0.44113115,-4.65)">
-    <stop
-       offset="0"
-       stop-color="#f8861f"
-       id="stop4" />
-    <stop
-       offset="1"
-       stop-color="#ff1800"
-       id="stop6" />
-  </radialGradient>
-  <path
-     d="m 43.898332,6.872576 a 7.7448023,7.7448023 0 0 0 0.9545,-3.733889 C 44.853746,-1.155651 41.359397,-4.65 37.065973,-4.65 c -3.650689,0 -6.722645,2.524306 -7.561946,5.918999 a 27.115495,27.115495 0 0 0 -2.154026,-0.08593 c -14.8615,0 -26.90886975,12.047368 -26.90886975,26.908868 0,7.311437 2.91652925,13.938998 7.64880345,18.789214 a 7.7484596,7.7484596 0 0 0 -1.566148,4.679246 c 0,4.295254 3.4943493,7.789603 7.7905153,7.789603 3.300525,0 6.129284,-2.065343 7.260238,-4.971814 1.860545,0.406851 3.793318,0.624447 5.775461,0.624447 14.861499,0 26.908868,-12.049197 26.908868,-26.909782 0,-8.622505 -4.0548,-16.295078 -10.360537,-21.220264 z m -6.834187,1.047756 c -0.416908,0 -0.82193,-0.05393 -1.207753,-0.153597 l -3.223726,9.378606 4.719476,-0.770732 -6.645847,10.834129 5.530433,-1.344894 -18.635616,22.229622 A 4.7816452,4.7816452 0 1 1 16.037706,47.102395 L 21.316715,35.587132 16.165705,36.981398 24.543183,24.992541 19.394,26.237781 33.993103,6.801262 a 4.7816452,4.7816452 0 0 1 3.070128,-8.445135 4.7816452,4.7816452 0 0 1 4.779817,4.780732 4.7816452,4.7816452 0 0 1 -4.778903,4.783473 z"
-     id="path9"
-     inkscape:connector-curvature="0"
-     style="fill:url(#a);stroke-width:0.91427249" />
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1,0)">
+        <circle cx="43" cy="8" r="6" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-24,48)">
+        <circle cx="43" cy="8" r="6" style="fill:white;"/>
+    </g>
+    <path d="M42,8C50.764,28.992 42.922,44.938 19,56C14.241,33.987 21.107,17.6 42,8Z" style="fill:white;"/>
+    <path id="path9" d="M48.548,11.523C49.176,10.378 49.504,9.094 49.503,7.789C49.504,3.494 46.009,0 41.716,0C38.065,0 34.993,2.524 34.154,5.919C33.437,5.862 32.719,5.833 32,5.833C17.139,5.833 5.091,17.88 5.091,32.742C5.091,40.053 8.008,46.681 12.74,51.531C11.722,52.878 11.172,54.522 11.174,56.21C11.174,60.506 14.668,64 18.964,64C22.265,64 25.094,61.935 26.225,59.028C28.085,59.435 30.018,59.653 32,59.653C46.862,59.653 58.909,47.603 58.909,32.743C58.909,24.12 54.854,16.448 48.548,11.523L48.548,11.523ZM41.714,12.57C41.297,12.57 40.892,12.516 40.506,12.417L37.283,21.795L42.002,21.025L35.356,31.859L40.887,30.514L22.251,52.743C23.201,53.646 23.739,54.9 23.739,56.21C23.739,58.833 21.581,60.992 18.958,60.992C16.335,60.992 14.176,58.833 14.176,56.21C14.176,53.587 16.335,51.428 18.958,51.428C19.549,51.428 20.136,51.538 20.688,51.752L25.967,40.237L20.816,41.631L29.193,29.643L24.044,30.888L38.643,11.451C37.561,10.543 36.934,9.201 36.934,7.788C36.934,5.166 39.091,3.008 41.713,3.006C44.335,3.007 46.493,5.165 46.493,7.787C46.494,10.41 44.337,12.569 41.714,12.57Z" style="fill:url(#_Radial1);fill-rule:nonzero;"/>
+    <defs>
+        <radialGradient id="_Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(29.5639,0,0,29.5639,31.6014,31.6009)"><stop offset="0" style="stop-color:rgb(248,134,31);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(255,24,0);stop-opacity:1"/></radialGradient>
+    </defs>
 </svg>
