@@ -61,6 +61,7 @@ export const icons: Icon[] = [
   i("D3", { [c]: "d3js.svg" }),
   i("Dart", { [c]: "dart.svg" }),
   i("Deno", { [c]: "deno.svg" }),
+  i("Dgraph", { [c]: "dgraph.svg" }),
   i("Directus", { [c]: "directus.svg" }),
   i("Discord", { [c]: "discord.svg" }),
   i("Discord.py", { [c]: "discord-py.svg" }),
