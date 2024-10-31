@@ -182,6 +182,7 @@ export const icons: Icon[] = [
   i("Soketi", { [c]: "soketi.png" }),
   i("Sourceforge", { [c]: "sourceforge.svg" }),
   i("Sourcetree", { [c]: "sourcetree.svg" }),
+  i("Spree", { [l]: "spree-light.svg", [d]: "spree-dark.svg" }),
   i("Spring", { [c]: "spring.svg" }),
   i("Strapi", { [d]: "strapi.svg" }),
   i("SQLAlchemy", { [c]: "sqlalchemy.svg" }),
