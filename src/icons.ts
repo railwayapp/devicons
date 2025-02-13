@@ -105,6 +105,7 @@ export const icons: Icon[] = [
   i("Haskell", { [c]: "haskell.svg" }),
   i("Hasura", { [c]: "hasura.svg" }),
   i("Heroku", { [c]: "heroku.svg" }),
+  i("Hono", { [c]: "hono.svg" }),
   i("HTML5", { [c]: "html5.svg" }),
   i("Java", { [c]: "java.svg" }),
   i("JavaScript", { [c]: "javascript.svg" }, ["expressjs"]),
