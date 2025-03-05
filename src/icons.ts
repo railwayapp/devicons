@@ -181,6 +181,7 @@ export const icons: Icon[] = [
   i("Sketch", { [c]: "sketch.svg" }),
   i("Slack", { [c]: "slack.svg" }),
   i("Soketi", { [c]: "soketi.png" }),
+  i("Solid", { [c]: "solidjs.svg" }),
   i("Sourceforge", { [c]: "sourceforge.svg" }),
   i("Sourcetree", { [c]: "sourcetree.svg" }),
   i("Spree", { [l]: "spree-light.svg", [d]: "spree-dark.svg" }),
