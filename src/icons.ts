@@ -25,6 +25,7 @@ export const icons: Icon[] = [
   i("Apple", { [d]: "apple-dark.svg", [l]: "apple-light.svg" }),
   i("Arch Linux", { [c]: "archlinux.svg" }),
   i("Arduino", { [c]: "arduino.svg" }),
+  i("Astro", { [c]: "astro.svg" }),
   i("Authorizer", { [c]: "authorizer.png" }),
   i("AWS", { [c]: "aws.svg" }),
   i("Azure", { [c]: "azure.svg" }),
