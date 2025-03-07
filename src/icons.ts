@@ -108,6 +108,7 @@ export const icons: Icon[] = [
   i("Heroku", { [c]: "heroku.svg" }),
   i("Hono", { [c]: "hono.svg" }),
   i("HTML5", { [c]: "html5.svg" }),
+  i("Inngest", { [d]: "inngest-dark.svg", [l]: "inngest-light.svg" }),
   i("Java", { [c]: "java.svg" }),
   i("JavaScript", { [c]: "javascript.svg" }, ["expressjs"]),
   i("JQuery", { [c]: "jquery.svg" }),
