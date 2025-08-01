@@ -158,6 +158,7 @@ export const icons: Icon[] = [
     [l]: "openai-light.svg",
   }),
   i("OpenTelemetry", { [c]: "otel.png" }),
+  i("ParadeDB", { [c]: "paradedb.svg" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
   i("PHP", { [c]: "php.svg" }),
   i("PostgreSQL", { [c]: "postgresql.svg" }),
