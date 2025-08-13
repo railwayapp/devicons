@@ -103,6 +103,7 @@ export const icons: Icon[] = [
   i("GCP", { [c]: "googlecloud.svg" }),
   i("Grafana", { [c]: "grafana.svg" }),
   i("GraphQL", { [c]: "graphql.svg" }),
+  i("GrowthBook", { [c]: "growthbook.svg" }),
   i("Grunt", { [c]: "grunt.svg" }),
   i("Gulp", { [c]: "gulp.svg" }),
   i("Hapi", { [c]: "hapi.svg" }),
