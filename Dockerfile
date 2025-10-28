@@ -1,31 +1,15 @@
-# Use Node 22.5 as the build environment
-FROM node:22.5-alpine AS build
+FROM oven/bun:1-alpine
 
-# Create app directory
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY package.json bun.lock ./
 
-# Install deps
-RUN npm ci
+RUN bun install --frozen-lockfile
 
-# Bundle app source
 COPY . ./
 
 ARG VITE_BASE_URL
 
-# Build
-RUN npm run build
+RUN bun run build
 
-# Use Node 22.5 for the final image
-FROM node:22.5-alpine
-
-# Create app directory
-WORKDIR /app ./
-
-# Copy in the build artifacts
-COPY --from=build /app/build ./build
-COPY package.json ./
-
-# Start the node server
-CMD [ "node", "build/index.js" ]
+CMD [ "bun", "run", "server.ts" ]
