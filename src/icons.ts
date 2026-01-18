@@ -161,6 +161,7 @@ export const icons: Icon[] = [
   }),
   i("OpenTelemetry", { [c]: "otel.png" }),
   i("ParadeDB", { [c]: "paradedb.svg" }),
+  i("Permify", { [c]: "permify.svg" }),
   i("Phoenix", { [c]: "phoenix.svg" }),
   i("PHP", { [c]: "php.svg" }),
   i("PostgreSQL", { [c]: "postgresql.svg" }),
