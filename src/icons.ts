@@ -190,7 +190,7 @@ export const icons: Icon[] = [
   i("ScalaPlay", { [c]: "scalaplay.svg" }),
   i("Selenium", { [c]: "selenium.svg" }),
   i("Shiori", { [c]: "shiori.png" }),
-  i("Symfony", { [c]: "symfony.png" }),
+  i("Symfony", { [c]: "symfony.svg" }),
   i("Sketch", { [c]: "sketch.svg" }),
   i("Slack", { [c]: "slack.svg" }),
   i("Soketi", { [c]: "soketi.png" }),
@@ -203,7 +203,7 @@ export const icons: Icon[] = [
   i("SQLAlchemy", { [c]: "sqlalchemy.svg" }),
   i("Svelte", { [c]: "svelte.svg" }),
   i("Swift", { [c]: "swift.svg" }),
-  i("Tailscale", { [c]: "tailscale.svg"}),
+  i("Tailscale", { [c]: "tailscale.svg" }),
   i("Telegram", { [c]: "telegram.svg" }),
   i("Terraform", { [c]: "terraform.svg" }),
   i("Travis-ci", { [c]: "travis-ci.svg" }),
@@ -238,7 +238,7 @@ export const icons: Icon[] = [
   i("Sails", {
     [c]: "sails.svg",
     [d]: "sails-extended.png",
-  })
+  }),
 ];
 
 const fuse = new Fuse(icons, {
@@ -255,19 +255,19 @@ export const searchIcons = (query?: string, log = true): Icon[] => {
   // Find best result for each word of query
   const qs = query.split(/[\s*-]/);
   const results = qs
-    .flatMap(w => fuse.search(w))
+    .flatMap((w) => fuse.search(w))
     .sort((a, b) => (a.score || 1.0) - (b.score || 1.0));
 
   if (log) {
     console.log(`\n\n--- ${qs}`);
     console.log(
       results
-        .map(i => `${(i.score || 0).toFixed(3)}: ${i.item.name}`)
+        .map((i) => `${(i.score || 0).toFixed(3)}: ${i.item.name}`)
         .join("  \n"),
     );
   }
 
-  return results.filter(i => (i.score || 1.0) < 0.35).map(r => r.item);
+  return results.filter((i) => (i.score || 1.0) < 0.35).map((r) => r.item);
 };
 
 export const getVariant = (
