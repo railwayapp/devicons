@@ -174,7 +174,7 @@ export const icons: Icon[] = [
   i("PostgreSQL", { [c]: "postgresql.svg" }),
   i("Postman", { [c]: "postman.svg" }),
   i("Puppeteer", { [c]: "puppeteer.svg" }),
-  i("Prisma", { [d]: "prisma-dark.svg", [l]: "prisma-light.svg" }),
+  i("Prisma", { [d]: "prisma-dark.svg", [l]: "prisma-light.svg", [c]: "prisma.svg" }),
   i("prometheus", { [c]: "prometheus.svg" }),
   i("Python", { [c]: "python.svg" }),
   i("Qovery", { [c]: "qovery.svg" }),
